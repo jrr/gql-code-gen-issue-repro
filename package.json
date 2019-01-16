@@ -2,11 +2,13 @@
   "name": "repro",
   "license": "MIT",
   "scripts": {
-  "gen": "gql-gen  --schema api-schema.graphql --clientSchema client-schema.graphql --template graphql-codegen-typescript-react-apollo-template --out types.tsx 'graphql/*/*.graphql'"
+  "gen": "gql-gen"
   },
   "devDependencies": {
     "graphql": "^14.0.2",
     "graphql-code-generator": "^0.15.2",
-    "graphql-codegen-typescript-react-apollo-template": "^0.15.2"
+    "graphql-codegen-typescript-client": "0.15.2",
+    "graphql-codegen-typescript-common": "0.15.2",
+    "graphql-codegen-typescript-react-apollo": "0.15.2"
   }
 }

@@ -1,0 +1,14 @@
+schema:
+  - "api-schema.graphql"
+  - "client-schema.graphql"
+documents:
+  - "graphql/*/*.graphql"
+config: {}
+generates:
+  types.tsx:
+    config: {}
+    plugins:
+      - "typescript-common"
+      - "typescript-client"
+      - "typescript-react-apollo"
+require: []
