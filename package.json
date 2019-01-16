@@ -1,6 +1,10 @@
 {
   "name": "repro",
+  "scripts": {
+  "gen": "gql-gen  --schema api-schema.graphql --clientSchema client-schema.graphql --template graphql-codegen-typescript-react-apollo-template --out types.tsx 'graphql/*/*.graphql'"
+  },
   "devDependencies": {
+    "graphql": "^14.0.2",
     "graphql-code-generator": "^0.13.0",
     "graphql-codegen-typescript-react-apollo-template": "^0.13.0",
     "graphql-codegen-typescript-resolvers-template": "^0.13.0",

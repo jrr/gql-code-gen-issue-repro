@@ -1,0 +1,7 @@
+type Query {
+  localName: String!
+}
+
+type Mutation {
+  setLocalName(name: String!): String!
+}
