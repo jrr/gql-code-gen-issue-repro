@@ -1,0 +1,9 @@
+{
+  "name": "repro",
+  "devDependencies": {
+    "graphql-code-generator": "^0.13.0",
+    "graphql-codegen-typescript-react-apollo-template": "^0.13.0",
+    "graphql-codegen-typescript-resolvers-template": "^0.13.0",
+    "graphql-codegen-typescript-template": "^0.13.0"
+  }
+}
