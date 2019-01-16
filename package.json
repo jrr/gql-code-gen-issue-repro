@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "graphql": "^14.0.2",
-    "graphql-code-generator": "^0.13.0",
-    "graphql-codegen-typescript-react-apollo-template": "^0.13.0"
+    "graphql-code-generator": "^0.15.2",
+    "graphql-codegen-typescript-react-apollo-template": "^0.15.2"
   }
 }
